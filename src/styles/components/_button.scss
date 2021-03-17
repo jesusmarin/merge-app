@@ -1,0 +1,19 @@
+.boton{
+    position:absolute;
+    bottom: 30px;
+    right: 50px;
+    padding: 10px 30px;
+    background-color: $fondoOscuro;
+    border-radius:5px;
+    border: 0px;
+    min-width: 80px;
+    min-height: 40px;
+    color: $fuenteClara;
+    font-weight: 400;
+}
+.boton:hover {    
+    background-color: $fuenteClara;    
+    color: $fondoOscuro;
+    font-weight: 400;
+    cursor: pointer;
+}

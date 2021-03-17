@@ -1,4 +1,8 @@
-.fondoDashboard{
+.fondoDashboard {
     background-color: $fondoClaro;
-    color:$fuentes;
+    color: $fuenteGrisMedio;
+    padding:10px;
+    h2{
+        margin: 40px 0  0 80px;
+    }
 }

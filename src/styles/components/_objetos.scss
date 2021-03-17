@@ -1,4 +1,26 @@
-.fondoObjetos{
+.fondoObjetos {
+
     background-color: $fondoOscuro;
-    color:$fuenteClara;
+    color: $fuenteClara;
+    padding: 30px 0 0 0;
+    overflow-y: auto;
+    h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .objetos {
+        padding: 10px;
+        padding-left: 30px;
+        border-top: 1px solid rgb(21, 35, 73);
+        border-bottom: 1px solid rgb(21, 35, 73);
+        cursor: pointer;
+       
+    }
+    .select {
+        padding-left: 20px;
+        background-color: rgb(21, 35, 73);
+    }
 }

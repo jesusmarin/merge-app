@@ -7,11 +7,15 @@ import { Objetos } from './ui/Objetos';
 
 function App() {
   return (
-    <>
-      <Head />
+    <div className="grid-contenedor">
       <Objetos />
-      <Dashboard />
-    </>
+      <div className="grid-derecha">
+        <Head />
+        <Dashboard />
+      </div>
+
+    </div>
+
   );
 };
 

@@ -1,0 +1,28 @@
+.grid-contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .grid-izquierda {
+        width: 20%;
+        height: auto;
+    }
+
+    .grid-derecha {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        .grid-derecha-head {
+            width: auto;
+            height: 6%;
+            
+        }
+        .grid-derecha-dashboard {
+            width: auto;
+            height: 94%;
+        }
+    }
+}
